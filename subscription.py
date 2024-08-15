@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 users = {
     "user1@example.com": datetime.now() + timedelta(days=7),  # Valid for 7 more days
     "user2@example.com": datetime.now() - timedelta(days=1),  # Expired 1 day ago
+    "agarwalmayank34963@gmail.com": datetime.now() + timedelta(days=3),  # 3 days access from today
 }
 
 # Function to check subscription status
